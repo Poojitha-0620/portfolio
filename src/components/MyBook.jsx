@@ -10,7 +10,7 @@ import Projects from "./pages/Projects/Projects.jsx";
 import ProjectImage1 from "../assets/ProjectImg1.png";
 import ProjectImage2 from "../assets/ProjectImage2.png";
 import ProjectImage3 from "../assets/ProjectImage3.png";
-
+import ProjectImage4 from "../assets/ProjectImage4.png";
 
 const ProjectData =[
         {
@@ -29,22 +29,23 @@ const ProjectData =[
 const ProjectData2 =[
     {
         name:"FitLife",
-        description:"A fully responsive website built with Reactjs. Designed for seamless performance across all devices.",
+        description:"A fully responsive website built with React.js, designed to ensure optimal performance and accessibility on all devices.",
         image: ProjectImage3,
         previewLink:"https://yourfitnessdiet.netlify.app",
     },
-   
+    {
+      name:"Portfolio",
+      description:"A fully responsive website built with React.js and Tailwind CSS, optimized for high performance on all devices.",
+      image: ProjectImage4,
+      previewLink:"https://portfoliobookmine.netlify.app",
+  },
 ]
 
 
 
     function MyBook(props) {
       return (
-       
-    
-   
-    
-   <HTMLFlipBook width={500} height={600} showCover={true}>
+       <HTMLFlipBook width={500} height={600} showCover={true}>
       <Page number={1}>
         <Cover coverImg={coverImg} title="My Portfolio" />
         
