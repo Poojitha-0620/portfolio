@@ -20,18 +20,19 @@ const ProjectData =[
             previewLink:"https://project1-treasures.netlify.app/",
         },
         {
-            name:"Rise & Shine",
-            description:"A simple website created using HTML and CSS. Designed for smooth user experience.",
-            image: ProjectImage2,
-            previewLink:"https://shine-unique.netlify.app/",
+          name:"FitLife",
+          description:"A fully responsive website built with React.js, designed to ensure optimal performance and accessibility on all devices.",
+          image: ProjectImage3,
+          previewLink:"https://enrichyourlife.netlify.app/",
         }
 ]
 const ProjectData2 =[
     {
-        name:"FitLife",
-        description:"A fully responsive website built with React.js, designed to ensure optimal performance and accessibility on all devices.",
-        image: ProjectImage3,
-        previewLink:"https://yourfitnessdiet.netlify.app",
+      name:"Rise & Shine",
+      description:"A simple website created using HTML and CSS. Designed for smooth user experience.",
+      image: ProjectImage2,
+      previewLink:"https://shine-unique.netlify.app/",
+       
     },
     {
       name:"Portfolio",
